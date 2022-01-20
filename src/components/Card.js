@@ -6,11 +6,7 @@ const useStyle = makeStyles((theme) => ({
         padding:theme.spacing(1,1,1,2),
         margin: theme.spacing(1),
     },
-    root:{
-        width:'300px',
-        backgroundColor: "#EBECF0",
-        marginLeft: theme.spacing(1),
-    },
+    
 }));
 
 

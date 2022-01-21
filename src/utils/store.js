@@ -20,7 +20,6 @@ const cards = [
         title: 'Todo',
         cards,
       },
-      
     },
     listIds: ['list-1'],
   };

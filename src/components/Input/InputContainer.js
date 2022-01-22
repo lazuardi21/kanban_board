@@ -1,4 +1,4 @@
-import { Collapse, fade, makeStyles, Paper, Typography } from '@material-ui/core';
+import { alpha, Collapse, makeStyles, Paper, Typography } from '@material-ui/core';
 import React, { useState } from 'react';
 import Inputcard from './InputCard';
 
@@ -12,7 +12,7 @@ const useStyle = makeStyles((theme) => ({
         margin:theme.spacing(0,1,1,1),
         backgroundColor:'#EBECF0',
         '&:hover':{
-            backgroundColor:fade('#000', 0.25),
+            backgroundColor:alpha('#000', 0.25),
         },
     },
 }));

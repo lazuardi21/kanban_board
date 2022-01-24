@@ -1,8 +1,8 @@
-import { Divider, Drawer, Grow, makeStyles } from '@material-ui/core';
+import { Drawer, Grow, makeStyles } from '@material-ui/core';
 import React, { useEffect, useState } from 'react';
 import colors from '../../utils/Color';
 import { getImages } from '../../utils/ImageApi';
-import TopBar from './TopBar';
+// import TopBar from './TopBar';
 
 
 const useStyles = makeStyles((theme) => ({
